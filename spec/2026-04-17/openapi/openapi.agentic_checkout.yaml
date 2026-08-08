@@ -45,9 +45,10 @@ paths:
               minimal:
                 summary: Single item; no fulfillment details
                 value:
-                  items:
+                  line_items:
                     - id: item_123
-                      quantity: 1
+                  currency: usd
+                  capabilities: {}
               with_address:
                 summary: Single item with shipping address
                 value:
